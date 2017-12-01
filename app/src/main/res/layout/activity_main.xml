@@ -18,60 +18,66 @@
     <Button
         android:id="@+id/tilesButton4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="4 Tiles" />
 
     <Button
         android:id="@+id/tilesButton6"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="6 Tiles" />
 
     <Button
         android:id="@+id/tilesButton8"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="8 Tiles" />
 
     <Button
         android:id="@+id/tilesButton10"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="10 Tiles" />
 
     <Button
         android:id="@+id/tilesButton12"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="12 Tiles" />
 
     <Button
         android:id="@+id/tilesButton14"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="14 Tiles" />
 
     <Button
         android:id="@+id/tilesButton16"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="16 Tiles" />
 
     <Button
         android:id="@+id/tilesButton18"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="18 Tiles" />
 
     <Button
         android:id="@+id/tilesButton20"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="20 Tiles" />
+
 
     <Button
         android:id="@+id/highscoreButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
         android:text="Highscores" />
+    <Button
+        android:id="@+id/musicButton"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="Music on/off" />
 </LinearLayout>

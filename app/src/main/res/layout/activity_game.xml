@@ -16,121 +16,181 @@
         <ImageButton
             android:id="@+id/cardButton0"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton1"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton2"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton3"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton4"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton5"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton6"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton7"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton8"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton9"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton10"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton11"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton12"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton13"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton14"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton15"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton16"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton17"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton18"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
         <ImageButton
             android:id="@+id/cardButton19"
             android:layout_width="54dp"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
             app:srcCompat="@mipmap/ic_launcher_round" />
 
     </GridLayout>
@@ -157,6 +217,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="End Game" />
+
+        <Button
+            android:id="@+id/completedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completed" />
+
+
+
     </LinearLayout>
 
 </LinearLayout>

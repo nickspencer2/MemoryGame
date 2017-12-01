@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:numColumns="4"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/highSCore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/first"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="1st"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/second"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="2nd"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/third"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="3rd"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/fourLabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="4:"
+        android:textSize="20dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fourOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fourTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fourThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/sixLabel"
+        android:layout_width="60dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="6:"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sixOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sixTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sixThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+
+
+
+    <TextView
+        android:id="@+id/eightLabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="8:"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eightOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/eightTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/eightThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tenLabel"
+        android:layout_width="60dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="10:"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tenOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tenTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tenThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twelveLabel"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="12:"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/twelveOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twelveTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twelveThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fourteenLabel"
+        android:layout_width="60dp"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text="14:"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fourteenOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="6"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fourteenTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="6"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/fourteenThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="6"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sixteenLabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="16:"
+        android:layout_column="0"
+        android:layout_row="7"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sixteenOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="7"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sixteenTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="7"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/sixteenThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="7"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/eighteenLabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="18:"
+        android:layout_column="0"
+        android:textSize="20dp"
+        android:layout_row="8"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eighteenOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="8"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/eighteenTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="8"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/eighteenThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="8"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twentyLabel"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="20:"
+        android:textSize="20dp"
+        android:layout_column="0"
+        android:layout_row="9"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twentyOne"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="1"
+        android:layout_row="9"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twentyTwo"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="2"
+        android:layout_row="9"
+        android:visibility="visible"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/twentyThree"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:layout_column="3"
+        android:layout_row="9"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/currentScore"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="your high score is:"
+        android:textSize="20dp"
+        android:layout_column="0"
+        android:layout_row="10"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="11"
+        android:text="enter name"
+        android:inputType= "textCapSentences|textAutoCorrect"
+     />
+
+
+    <Button
+        android:id="@+id/mainMenuButton"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_column="0"
+        android:layout_row="12"
+        android:text="Done"
+        android:adjustViewBounds="true"/>
+
+</GridLayout>

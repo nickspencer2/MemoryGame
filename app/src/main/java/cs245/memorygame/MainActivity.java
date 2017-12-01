@@ -1,6 +1,7 @@
 package cs245.memorygame;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
+    MediaPlayer mediaPlayer;
+    private Button musicButton, highScoreButton;
+    static boolean musicToggle = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,14 +21,57 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             int resID = getResources().getIdentifier(buttonName, "id", getPackageName());
             ((Button) findViewById(resID)).setOnClickListener(this);
         }
-    }
+        String buttonName = "musicButton";
+        int resID = getResources().getIdentifier(buttonName, "id", getPackageName());
+        musicButton = ((Button) findViewById(resID));
+        musicButton.setOnClickListener(this);
+        buttonName = "highscoreButton";
+        resID = getResources().getIdentifier(buttonName, "id", getPackageName());
+        highScoreButton = ((Button) findViewById(resID));
+        highScoreButton.setOnClickListener(this);
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.song);
 
+        if(musicToggle == true){
+            startMusic();
+        }
+    }
+    public void startMusic(){
+        mediaPlayer.start();
+        mediaPlayer.setLooping(true);
+    }
     @Override
     public void onClick(View view) {
-        String buttonText = ((Button) view).getText().toString();
-        Integer buttonNum = Integer.parseInt(buttonText.substring(0, buttonText.length() - 6));
-        Intent i = new Intent(MainActivity.this, GameActivity.class);
-        i.putExtra("numTiles", buttonNum);
-        startActivity(i);
+        if(view == musicButton) {
+            System.out.println("music button clicked");
+            if(musicToggle == false){
+                musicToggle = true;
+                startMusic();
+
+            }
+            else{
+                musicToggle = false;
+                if(mediaPlayer.isPlaying()){
+                    mediaPlayer.pause();
+                }
+            }
+
+        }
+        else if(view == highScoreButton){
+            System.out.println("highScore button clicked");
+            Intent i = new Intent(MainActivity.this, HighScoreActivity.class);
+            i.putExtra("numTiles", 1);
+            i.putExtra("score", -20);
+            startActivity(i);
+
+
+        }
+        else{
+
+            String buttonText = ((Button) view).getText().toString();
+            Integer buttonNum = Integer.parseInt(buttonText.substring(0, buttonText.length() - 6));
+            Intent i = new Intent(MainActivity.this, GameActivity.class);
+            i.putExtra("numTiles", buttonNum);
+            startActivity(i);
+        }
     }
 }
