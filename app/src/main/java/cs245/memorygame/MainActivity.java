@@ -9,9 +9,9 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    MediaPlayer mediaPlayer;
+    private static MediaPlayer mediaPlayer;
     private Button musicButton, highScoreButton;
-    static boolean musicToggle = false;
+    private boolean musicToggle = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,21 +29,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         resID = getResources().getIdentifier(buttonName, "id", getPackageName());
         highScoreButton = ((Button) findViewById(resID));
         highScoreButton.setOnClickListener(this);
-        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.song);
-
-        if(musicToggle == true){
-            startMusic();
+        if(mediaPlayer == null) {
+            mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.song);
         }
+        if(musicToggle == true && mediaPlayer.isPlaying()==false){
+            startMusic();
+
+        }
+
     }
     public void startMusic(){
         mediaPlayer.start();
-        mediaPlayer.setLooping(true);
+
+
     }
     @Override
     public void onClick(View view) {
         if(view == musicButton) {
             System.out.println("music button clicked");
-            if(musicToggle == false){
+            if(musicToggle == false && mediaPlayer.isPlaying()==false){
                 musicToggle = true;
                 startMusic();
 
